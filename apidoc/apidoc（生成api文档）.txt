@@ -1,0 +1,15 @@
+参照文档
+http://apidocjs.com/
+
+通过这个工具生成api（接口）文档
+
+安装：
+	sudo apt-get install npm
+运行：
+	apidoc -i myapp/ -o mytemplate/
+
+在myapp目录下有两个文件	
+	一个是XXX.json
+	一个是XXX.py
+
+设置完这两个文件运行上述命令就会生成前端页面
